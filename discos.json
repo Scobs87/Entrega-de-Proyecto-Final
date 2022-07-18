@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "artista": "Radiohead",
+      "album": "Ok Computer",
+      "genero": "Rock Alternativo",
+      "precio": 300,
+      "cover": "./Imagenes/ok computer.jpg"
+    },
+    {
+      "artista": "Gorillaz",
+      "album": "Demon Days",
+      "genero": "Rock Alternativo",
+      "precio": 400,
+      "cover": "./Imagenes/Gorillaz.jpg"
+    },
+    {
+      "artista": "The Strokes",
+      "album": "Room On Fire",
+      "genero": "Rock Alternativo",
+      "precio": 350,
+      "cover": "./Imagenes/Room on Fire.jpg"
+    },
+    {
+      "artista": "Interpol",
+      "album": "Turn On The Bright Lights",
+      "genero": "Rock Alternativo",
+      "precio": 400,
+      "cover": "./Imagenes/Interpol.jpg"
+    },
+    {
+      "artista": "Bjork",
+      "album": "Homogenic",
+      "genero": "Electronica/Trip Hop",
+      "precio": 500,
+      "cover": "./Imagenes/bjork.jpg"
+    },
+    {
+      "artista": "Nine Inch Nails",
+      "album": "Fragile",
+      "genero": "Rock Industrial",
+      "precio": 450,
+      "cover": "./Imagenes/NIN.jpg"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tijuana Record Shop</title>
+  </head>
+  <body>
+    <nav class="nav navbar-dark bg-dark">
+      <a class="nav-link active" aria-current="page" href="#">Home</a>
+
+      <ul class="cart">
+        <li><a class="nav-link" href="#">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <h1>Tijuana Record Shop</h1>
+
+    <div id="cartContenedor" class="cartContenedor">
+      <div class="laTabla">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Cover</th>
+              <th scope="col">Album</th>
+              <th scope="col">Artista</th>
+              <th scope="col">Genero</th>
+              <th scope="col">Precio</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Codigo insertado desde JS -->
+          </tbody>
+        </table>
+        <br />
+        <div class="row mx-4">
+          <div class="col">
+            <h3 class="itemCartTotal">Total: 0</h3>
+          </div>
+          <div class="col d-flex justify-content-end">
+            <button class="btn btn-success">COMPRAR</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contenedor" class="contenedor">
+      <!-- Codigo insertado desde JS -->
+    </div>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="./interactividad.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 10rem;
+  text-align: center;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 85%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 8rem;
+}
+
+.contenedor .card {
+  width: 332px;
+  height: 80vh;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.contenedor .card .bold {
+  font-weight: 500;
+}
+
+h4 {
+  text-align: center;
+}
+
+svg {
+  color: white;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  margin-right: 7vh;
+}
+
+ul .cart {
+}
+
+.nav-link {
+  margin-left: 7vh;
+}
+
+.laTabla {
+  min-height: 70vh;
+  max-width: 1200px;
+  padding-bottom: 10vh;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.table__cover {
+  display: flex;
+}
+
+.table__cover img {
+  width: 10rem;
+  object-fit: contain;
+  border-radius: 3px;
+}
